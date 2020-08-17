@@ -53,7 +53,14 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
+  /*
+   ** srcディレクトリから参照
+   */
+  srcDir: "src/",
+  /*
+   ** publicディレクトリに出力
+   */
   generate: {
-    dir: "public"
+    dir: "public/"
   }
 };
