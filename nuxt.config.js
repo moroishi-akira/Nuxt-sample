@@ -61,6 +61,7 @@ export default {
    ** publicディレクトリに出力
    */
   generate: {
-    dir: "public/"
+    dir: "public/",
+    fallback: false
   }
 };
